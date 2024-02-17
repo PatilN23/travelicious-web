@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+/* home */
+.main {
+	width: 100%;
+	height: 100vh;
+	overflow: hidden !important;
+}
+
+video {
+	width: 500%;
+	height: 90%;
+	object-fit: cover;
+
+}
+
+.content {
+	
+	position: absolute;
+	width: 100%;
+	height: 50%;
+	top: 30vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	margin-top: 10vh;
+}
+
+.content h1 {
+	font-size: 7vw;
+	margin-bottom: 10px;
+	font-weight: 700;
+	text-shadow: 2px 2px black;
+
+}
+
+.content button {
+	background-color: rgb(226, 217, 43);
+	color: white;
+	font-weight: bold;
+	border-radius: 5px;
+	height: 9vh;
+	width: 20vh;
+	margin: 10px;
+	font-size: 4vh
+}
+
+
+
+
+/* footer container */
+.footer-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: darkslategrey;
+    color: white;
+    margin-top: 15vh;
+   }
+
+.footer-container .search {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.footer-container .footer {
+    width: 35vh;
+    margin: 2vh;
+    margin-top: 5vh;
+}
+
+.footer-logo {
+    background-color: darkslategrey;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo .footer-icon {
+    display: flex;
+    height: 5vh;
+    width: 50vh;
+    justify-content: space-evenly;
+}
+
